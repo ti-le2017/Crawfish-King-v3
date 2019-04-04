@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:200,300');
+
+.navbar-position {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.nav {
+    /* items displayed horizontally */
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-reserv-button {
+    border: 2px solid #c1c1c1;
+    /* display: inline-block; */
+    padding: 10px;
+    margin-left: 3rem;
+}
+
+/* darken image on hover */
+.nav-reserv-button:hover {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.nav-reserv-button a {
+    color:#c1c1c1;
+    text-decoration: none;
+    font-size: 1.75rem;
+    font-family: 'Rokkitt', serif;
+}
+
+/* fills empty space*/
+.spacer {
+    flex: 1;
+}
+
+/* darken image on hover */
+.nav-items img:hover {
+    background-color: black;
+    opacity: 0.7;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.nav-items li {
+    margin: 0 .5rem;
+}
+
+.nav-items img {
+    width: 40px;
+    height: 41px;
+}
+
+/* mobile view */
+@media only screen and ( max-width: 440px ) {
+    .nav-reserv-button {
+        margin-left: .5rem;
+    }
+}

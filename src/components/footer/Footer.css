@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500');
+
+/* Adjust Semantic grid to cover entire screen width */
+.ui.grid {
+    margin: 0;
+}
+
+/* Semantic Grid spacing */
+.ui.grid>.row {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ui.grid>.row>.column {
+    margin-top: 1rem;
+}
+/* ///////////////////// */
+
+h2, h4 {
+    color: #c1c1c1;
+    margin: 0;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #c1c1c1;
+}
+
+.footer-position {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+}
+
+.right-content {
+    text-align: right;
+    margin-right: 3rem;
+}
+
+.left-content {
+    margin-left: 3rem;
+}
+
+.row-two-position {
+   margin-left: 3rem;
+}
+
+/* mobile view */
+@media only screen and ( max-width: 440px ) {
+    .right-content {
+        text-align: center;
+    }
+
+    .left-content {
+        text-align: center;
+    }
+
+    .row-two-position {
+        text-align: center;
+    }
+
+    h2, h4 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: .5em;
+    }
+}

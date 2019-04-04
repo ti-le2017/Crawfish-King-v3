@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt:200,300');
+
+/* remove p element property */
+p {
+    margin: 0px;
+}
+
+.column-box{
+    /* border: 1px solid black; */
+    height: 260px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 4vw;
+    color: white;
+    padding-top: 2em;
+    border-bottom: 4px solid white;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    font-family: 'Rokkitt', serif;
+    padding-top: 12px;
+}
+
+.column-box-mobile {
+    height: 150px;
+    margin-top: 20vw;
+}
+
+.title-mobile {
+    font-family: 'Rokkitt', serif;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    font-size: 2em;
+}
+
+/* standard laptop screen 1024px */
+@media only screen and ( min-width: 1024px) {
+    .column-box {
+        margin-top: 100px;
+    }
+
+}
+
+/* large laptop screen 1440px */
+@media only screen and ( min-width: 1440px ) {
+
+}
+
+/* extra large screen 2560px */
+@media only screen and ( min-width: 2560px ) {
+
+}
+
+/* Ipad Pro screen */
+@media only screen and ( max-width: 1024px) {
+
+}
+
+@media only screen and ( max-width: 420px) {
+
+}
