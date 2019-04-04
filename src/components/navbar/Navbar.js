@@ -14,7 +14,9 @@ const Navbar = () => {
     return(
         <div className="navbar-position">
             <nav className="nav">
-                <div className="nav-reserv-button"><a href="/">Reservation</a></div>
+                <Responsive minWidth={440}>
+                    <div className="nav-reserv-button"><a href="/">CRAWFISH KING</a></div>
+                </Responsive>
                 <div className="spacer" />
                 <div className="nav-items">
                     <Responsive minWidth={440}>
@@ -28,7 +30,7 @@ const Navbar = () => {
                     </ul>
                     </Responsive>
                     <Responsive maxWidth={439}>
-                        <NavMenu />
+                        <h1>CRAWFISH KING</h1>
                     </Responsive>
                 </div>
             </nav>

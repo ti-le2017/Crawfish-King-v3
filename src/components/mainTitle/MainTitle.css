@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Rokkitt:200,300');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Permanent+Marker&effect=fire-animation');
 
 /* remove p element property */
 p {
@@ -12,20 +12,21 @@ p {
 }
 
 .title {
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
-    font-family: 'Rokkitt', serif;
     font-size: 4vw;
-    color: white;
+    color: #070707;
+    text-shadow: 4px 4px 4px black;
     padding-top: 2em;
-    border-bottom: 4px solid white;
+    /* border-bottom: 4px solid white; */
 }
 
 .sub-title {
     text-align: center;
+    font-family: 'Caveat Brush', cursive;
     font-size: 3vw;
-    color: white;
-    font-family: 'Rokkitt', serif;
-    padding-top: 12px;
+    text-shadow: 4px 4px 4px black;
+    padding-top: 12px;          
 }
 
 .column-box-mobile {
@@ -33,7 +34,7 @@ p {
     margin-top: 20vw;
 }
 
-.title-mobile {
+.mobile-content {
     font-family: 'Rokkitt', serif;
     position: absolute;
     bottom: 0;

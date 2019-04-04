@@ -10,7 +10,7 @@ const PageTitle = () => {
             <Responsive minWidth={420}>
                 <Grid centered columns={2}>
                     <Grid.Column className="column-box">
-                            <p className="title">SEAFOOD BOIL</p>
+                            <p className="title font-effect-fire-animation">SEAFOOD BOIL</p>
                             <p className="sub-title">LICK | BITE | SUCK | EAT</p>
                     </Grid.Column>
                 </Grid>
@@ -19,7 +19,7 @@ const PageTitle = () => {
             <Responsive maxWidth={419}>
                 <Grid centered>
                     <Grid.Column className="column-box-mobile">
-                        <p className="title-mobile">CRAWFISH KING</p>
+                        <p className="mobile-content">CRAWFISH KING</p>
                     </Grid.Column>
                 </Grid>
             </Responsive>

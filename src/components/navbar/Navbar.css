@@ -60,9 +60,18 @@
     height: 41px;
 }
 
+h1 {
+    color: #c1c1c1;
+}
+
 /* mobile view */
-@media only screen and ( max-width: 440px ) {
+@media only screen and ( max-width: 439px ) {
     .nav-reserv-button {
         margin-left: .5rem;
+    }
+
+    .nav {
+       display: block;
+       text-align: center;
     }
 }
