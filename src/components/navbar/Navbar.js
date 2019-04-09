@@ -8,6 +8,7 @@ import facebookIcon from '../../assets/images/facebook.png';
 import yelpIcon from '../../assets/images/yelp.png';
 import instagramIcon from '../../assets/images/instagram.png';
 import googleIcon from '../../assets/images/google-business.png';
+import ckLogo from '../../assets/images/CrawfishKing_Logo_Circle CK Logo.png';
 
 const Navbar = () => {
 
@@ -15,7 +16,7 @@ const Navbar = () => {
         <div className="navbar-position">
             <nav className="nav">
                 <Responsive minWidth={440}>
-                    <div className="nav-reserv-button"><a href="/">CRAWFISH KING</a></div>
+                    <div className="ck-main-logo"><a href="/"><img src={ckLogo} /></a></div>
                 </Responsive>
                 <div className="spacer" />
                 <div className="nav-items">

@@ -13,7 +13,7 @@ const NavMenuContent = (props) => {
                 <Grid.Column className="background-image" style={{ backgroundImage: `url(${woodImage})`}}>
                     <div className="top-box">
                         <img src={exitSignImage} onClick={ props.hideSideMenu } />
-                        <p>CRAWFISH KING</p>
+                        <p>Crawfish King</p>
                     </div>
                     <div className="left-box">
                         <p></p>
