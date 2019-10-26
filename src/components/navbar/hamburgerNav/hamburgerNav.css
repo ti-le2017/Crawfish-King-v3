@@ -67,3 +67,13 @@
 .right-box ul li:hover {
     opacity: 0.5;
 }
+
+@media only screen and ( max-width: 440px ){
+    .ui.vertical.buttons .button {
+        justify-content: center;
+    }
+
+    a {
+        color: white;
+    }
+}
