@@ -68,4 +68,11 @@ p {
     p {
         font-size: .5em;
     }
+
+    .footer-position {
+        position: relative;
+        bottom: 0;
+        background-color: black;
+        width: 100%;
+    }
 }

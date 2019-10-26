@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './custom.css';
 
 // Components
-import Navbar from './navbar/Navbar.js';
-import Footer from './footer/Footer.js';
-import MainTitle from './mainTitle/MainTitle.js';
+import Navbar from './navbar';
+import Footer from './footer';
+import MainTitle from './mainTitle';
 
 // Images
 import heroImageDesktop from '../assets/images/hero.jpg';
 import heroImageMobile from '../assets/images/mobile-hero.png';
+
+
 
 const App = () => {
     const imageUrl = useWindowWidth() <= 650 ? heroImageMobile : heroImageDesktop;
@@ -16,9 +18,11 @@ const App = () => {
     return (
         <div className="App-body" style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className="App-overlay"></div>
-            <Navbar />
-            <MainTitle />
-            <Footer />
+                <div>
+                    <Navbar />
+                    <MainTitle />
+                    <Footer />
+                </div>
         </div>
     );
 };  

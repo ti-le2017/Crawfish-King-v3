@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.positioning120 {
+    margin-top: 120px;
+}
+
+/* frame for background image */
+.App-body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+/* background image shadow overlay */
+.App-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.App-overlay-darker {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* mobile view */
+@media only screen and ( max-width: 439px ) {
+    .disp-inline-mobile {
+        display: inline-block;
+    }
+}
