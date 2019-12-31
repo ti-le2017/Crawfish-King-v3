@@ -14,25 +14,6 @@
     padding: 1rem;
 }
 
-/* Reserve button where CK logo is located */
-/* .nav-reserv-button {
-    border: 2px solid #c1c1c1;
-    padding: 10px;
-    margin-left: 3rem;
-}
-
-.nav-reserv-button:hover {
-    background-color: black;
-    opacity: 0.7;
-}
-
-.nav-reserv-button a {
-    color:#c1c1c1;
-    text-decoration: none;
-    font-size: 1.75rem;
-    font-family: 'Rokkitt', serif;
-} */
-
 .ck-main-logo img {
     width: 140px;
     position: fixed;
@@ -47,10 +28,10 @@
 }
 
 /* darken image on hover */
-.nav-items img:hover {
+/* .nav-items img:hover {
     background-color: black;
     opacity: 0.7;
-}
+} */
 
 .nav-items ul {
     list-style: none;
@@ -59,12 +40,16 @@
 }
 
 .nav-items li {
-    margin: 0 .5rem;
+    margin: 1em 1em;
 }
 
-.nav-items img {
-    width: 40px;
-    height: 41px;
+.nav-items li a {
+    color: white;
+}
+
+.nav-items ul li:hover {
+    background-color: black;
+    opacity: 0.7;
 }
 
 h1 {

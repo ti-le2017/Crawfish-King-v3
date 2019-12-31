@@ -1,0 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Permanent+Marker&effect=fire-animation'); */
+
+.add-padding {
+    margin-top: 4em;
+    margin-bottom: 6em; 
+}
+
+/* Reservation button */
+.nav-reserv-button {
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    transition: transform 250ms;
+}
+
+.nav-reserv-button:hover {
+    background-color: black;
+    opacity: 0.7;
+    transform: translateY(-2px);
+}
+
+.nav-reserv-button a {
+    color: White;
+}
+/* ***************** */
+
+/* standard laptop screen 1024px */
+@media only screen and ( min-width: 1024px) {
+    .column-box {
+        margin-top: 100px;
+    }
+}
+
+/* large laptop screen 1440px */
+@media only screen and ( min-width: 1440px ) {
+
+}
+
+/* extra large screen 2560px */
+@media only screen and ( min-width: 2560px ) {
+
+}
+
+/* Ipad Pro screen */
+@media only screen and ( max-width: 1024px) {
+
+}
+
+@media only screen and ( max-width: 420px) {
+
+}

@@ -1,34 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import './custom.css';
+import '../../custom.css';
+import ReservationContent from './reservationContent';
 
 
-// Components
-import Navbar from './navbar';
-import Footer from './footer';
-import MainBody from './mainBody';
-
-// Images
-import heroImageDesktop from '../assets/images/hero.jpg';
-import heroImageMobile from '../assets/images/mobile-hero.png';
+import Navbar from '../../navbar';
+import Footer from '../../footer';
 
 
-
-const App = () => {
+import heroImageDesktop from '../../../assets/images/hero.jpg';
+import heroImageMobile from '../../../assets/images/mobile-hero.png';
+const Reservations = () => {
     const imageUrl = useWindowWidth() <= 650 ? heroImageMobile : heroImageDesktop;
 
     return (
-        <div className="App-body" style={{ backgroundImage: `url(${imageUrl})` }}>
-            <div className="App-overlay"></div>
-                <div>
-                    <Navbar />
-                    <MainBody />
-                    <Footer />
-                </div>
+        <div className="App-body" style={{ backgroundImage: `url(${imageUrl})`}}>
+            <div className="App-overlay-darker"></div>
+            <div>
+                <Navbar />
+                <ReservationContent />
+                <Footer />
+            </div>
         </div>
-    );
-};  
+    )
+}
 
-export default App;
+export default Reservations;
 
 // custom HOOK
 // return the windows width everytime the dom rerenders

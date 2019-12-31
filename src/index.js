@@ -7,6 +7,7 @@ import App from './components/App.js';
 import Menu from './components/sitePages/menu';
 import AboutUs from './components/sitePages/aboutUs';
 import Promotion from './components/sitePages/promotion';
+import Reservations from './components/sitePages/reservation';
 
 const Routing = (
     <Router>
@@ -16,6 +17,7 @@ const Routing = (
                 <Route path="/menu" component={Menu} />
                 <Route path="/promotion" component={Promotion} />
                 <Route path="/aboutUs" component={AboutUs} />
+                <Route path="/reservations" component={Reservations} />
             </Switch>
         </div>
     </Router>

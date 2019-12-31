@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-import './MainTitle.css';
+import { Link } from 'react-router-dom';
+import './MainBody.css';
+import SocialFollow from '../socialFollow';
 
 import { Grid, Responsive, Image } from 'semantic-ui-react';
 import MainLogo from '../../assets/images/CrawfishKing_Logo_Circle CK Logo.png';
@@ -9,10 +11,15 @@ const PageTitle = () => {
     return (
         <Fragment>
             <Responsive minWidth={440}>
-                <Grid centered columns={2}>
-                    <Grid.Column className="column-box">
-                            <p className="title">SEAFOOD BOIL</p>
-                            <p className="sub-title">LICK | BITE | SUCK | EAT</p>
+                <Grid>
+                    <Grid.Column width={3}>
+                        <SocialFollow />
+                    </Grid.Column>
+                    <Grid.Column width={10}>
+
+                    </Grid.Column>
+                    <Grid.Column width={3}>
+                        <button className="nav-reserv-button"><Link to="/reservations">RESERVATIONS</Link></button>
                     </Grid.Column>
                 </Grid>
             </Responsive>

@@ -4,8 +4,8 @@ import './hamburgerNav.css';
 import { Grid, Responsive, Button } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
-import woodImage from '../../../assets/images/mobile-hero.png';
-import exitSignImage from '../../../assets/images/exit-sign.png';
+// import woodImage from '../../../assets/images/mobile-hero.png';
+// import exitSignImage from '../../../assets/images/exit-sign.png';
 
 
 const HamburgerNav = (props) => {
@@ -13,7 +13,7 @@ const HamburgerNav = (props) => {
         <Fragment>
             <Responsive minWidth={440}>
                 <div>
-                    <Grid centered columns={2}>
+                    {/* <Grid centered columns={2}>
                         <Grid.Column className="background-image" style={{ backgroundImage: `url(${woodImage})`}}>
                             <div className="top-box">
                                 <img src={exitSignImage} onClick={ props.hideSideMenu } alt="exit sign" />
@@ -33,7 +33,7 @@ const HamburgerNav = (props) => {
                                 </ul>
                             </div>
                         </Grid.Column>
-                    </Grid>
+                    </Grid> */}
                 </div>
             </Responsive>
             <Responsive maxWidth={439}>
@@ -45,6 +45,7 @@ const HamburgerNav = (props) => {
                         <Button color="black"><Link to="/promotion">PROMOTION</Link></Button>
                         <Button color="black">PARKING</Button>
                         <Button color="black"><Link to="/aboutUs">ABOUT US</Link></Button>
+                        <Button color="black"><Link to="/reservations">RESERVATION</Link></Button>
                         </Button.Group>
                     </Grid.Column>
                 </Grid>
