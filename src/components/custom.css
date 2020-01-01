@@ -21,7 +21,7 @@
 /* background image shadow overlay */
 .App-overlay {
     position: absolute;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.2);
     top: 0;
     bottom: 0;
     height: 100%;
@@ -30,7 +30,7 @@
 
 .App-overlay-darker {
     position: absolute;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.2);
     top: 0;
     bottom: 0;
     height: 100%;
