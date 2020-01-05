@@ -17,7 +17,7 @@ p {
 
 /* promo image fit to screen */
 .ui.large.image {
-    width: 27em;
+    width: 23em;
 }
 
 /* frame for background image */
@@ -26,8 +26,6 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: 0;
-    bottom: 0;
     height: 100vh;
 }
 

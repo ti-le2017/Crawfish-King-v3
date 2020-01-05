@@ -13,7 +13,8 @@ const AboutUsContent = () => {
                 </Grid.Column>
                 <Grid.Column width={4} color="black" className="positioning120">
                     <div>
-                        <h1>The Team</h1>
+                        <h2>The Team</h2>
+                        <br></br>
                         <p>You might be wondering why an Asian family like ours is running a seafood boil restaurant like Crawfish King. Indeed this type of food is not part of the Asian cuisine, but there’s one thing that definitely resonates with us and that’s family and friends eating together.</p>
                         <br></br>
                         <p>I grew up in a family where everyone worked hard day and night handling multiple jobs to make ends meet. But one thing you can be sure of is that every weekend, we made time for family gatherings. Our house would be full of conversations and laughter from family and friends. Of course, none of this could have happened without plenty of food. So even though we were tired from long days of work, we put our last bit of energy in cooking up batches of delicious dishes for the weekend. “Enough food” for us meant everyone was able to take home some too.</p>
