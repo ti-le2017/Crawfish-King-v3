@@ -27,33 +27,27 @@
     flex: 1;
 }
 
-/* darken image on hover */
-/* .nav-items img:hover {
-    background-color: black;
-    opacity: 0.7;
-} */
-
 .nav-items ul {
     list-style: none;
     display: flex;
     margin-right: 3rem;
 }
 
-.nav-items li {
+.nav-items ul li {
     margin: 1em 1em;
 }
 
-.nav-items li a {
+.nav-items ul li a {
     color: white;
 }
 
-.nav-items ul li:hover {
-    background-color: black;
+.nav-items ul li a:hover {
+    color: grey;
     opacity: 0.7;
 }
 
 h1 {
-    color: #c1c1c1;
+    color: white;
     font-size: 2em;
 }
 
@@ -82,5 +76,21 @@ h1 {
 
     .ui.container {
         margin-top: 1em;
+    }
+
+    .nav-items ul li {
+        margin: 0em 0em;
+    }
+
+    .nav {
+        padding: 1rem 0rem;
+    }
+
+    .nav-items ul {
+        margin-right: 0rem;
+    }
+
+    .nav-items ul li {
+        margin: 0em 0em;
     }
 }

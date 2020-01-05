@@ -4,7 +4,11 @@
 }
 
 .positioning120 {
-    margin-top: 120px;
+    margin-top: 5.5em;
+}
+
+.ui.fluid.button {
+    margin-bottom: .25rem;
 }
 
 /* frame for background image */
@@ -38,8 +42,30 @@
 }
 
 /* mobile view */
-@media only screen and ( max-width: 439px ) {
+@media only screen and (max-width: 439px) {
     .disp-inline-mobile {
         display: inline-block;
+    }
+
+    .ui.grid>.column:not(.row) {
+        padding-bottom: 0px;
+    }
+
+    .ui.images {
+        margin: 0px 4.75rem 0;
+    }
+
+    .positioning120 {
+        margin-top: 0em;
+    }
+
+    .App-body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        height: 100%;
     }
 }

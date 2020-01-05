@@ -51,14 +51,17 @@ p {
 @media only screen and ( max-width: 440px ) {
     .right-content {
         text-align: center;
+        margin-right: 0rem;
     }
 
     .left-content {
         text-align: center;
+        margin-left: 0rem;
     }
 
     .row-two-position {
         text-align: center;
+        margin-left: 0rem;
     }
 
     h2, h4 {
@@ -74,5 +77,9 @@ p {
         bottom: 0;
         background-color: black;
         width: 100%;
+    }
+
+    .ui.grid>.row>.column {
+        margin-top: 0rem;
     }
 }

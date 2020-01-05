@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import '../../../custom.css';
+import SocialFollow from '../../../sideComponents/socialFollow';
+// import ButtonLink from '../../../sideComponents/buttons';
 import { Grid, Modal, Image, Button } from 'semantic-ui-react';
 import Appetizers from '../../../../assets/images/appetiziers.jpg';
 import BackMenu from '../../../../assets/images/BackMenu.jpg';
@@ -14,8 +16,16 @@ const MenuContent = () => {
 
     return (
         <Fragment>
-            <Grid centered stackable columns={2}>
-                <Grid.Column width={4} color="black" className="positioning120 mobile-positioning">
+
+            <Grid stackable columns={5}>
+                <Grid.Column width={1}>
+                    <SocialFollow />
+                </Grid.Column>
+
+                <Grid.Column width={1}>
+                </Grid.Column>
+
+                <Grid.Column width={2} color="black" className="positioning120 mobile-positioning">
                     <Modal trigger={<Button fluid inverted>Front Menu</Button>}>
                         <Modal.Header>Appetizers Menu</Modal.Header>
                         <Image src={Appetizers} />
@@ -33,7 +43,8 @@ const MenuContent = () => {
                         <Image src={DrinksMenu} />
                     </Modal>
                 </Grid.Column>
-                <Grid.Column width={9} color="black" className="positioning120">
+
+                <Grid.Column width={10} color="black" className="positioning120">
                     <div>
                         <h1>Delivery Options</h1>
                         <Image.Group size="medium">
@@ -44,6 +55,10 @@ const MenuContent = () => {
                         </Image.Group>
                     </div>                   
                 </Grid.Column>
+
+                <Grid.Column width={2}>
+                </Grid.Column>
+
             </Grid>
         </Fragment>
     );
