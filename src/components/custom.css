@@ -3,12 +3,21 @@
     padding: 0;
 }
 
+p {
+    margin: 0px;
+}
+
 .positioning120 {
     margin-top: 5.5em;
 }
 
 .ui.fluid.button {
     margin-bottom: .25rem;
+}
+
+/* promo image fit to screen */
+.ui.large.image {
+    width: 27em;
 }
 
 /* frame for background image */

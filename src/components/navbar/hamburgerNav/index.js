@@ -17,7 +17,6 @@ const HamburgerNav = (props) => {
                     <Button color="black"><Link to="/">HOME</Link></Button>
                     <Button color="black"><Link to="/menu">MENU</Link></Button>
                     <Button color="black"><Link to="/promotion">PROMOTION</Link></Button>
-                    <Button color="black">PARKING</Button>
                     <Button color="black"><Link to="/aboutUs">ABOUT US</Link></Button>
                     <Button color="black"><Link to="/reservations">RESERVATION</Link></Button>
                     </Button.Group>
